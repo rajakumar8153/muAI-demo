@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 90px;
+  margin-bottom: 1.5em;
+  pointer-events: none;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.15));
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: linear-gradient(135deg, #2e7d32 0%, #43a047 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+  box-shadow: 0 8px 32px 0 rgba(34, 49, 63, 0.2);
+}
+
+ul {
+  background: rgba(255,255,255,0.08);
+  border-radius: 1em;
+  padding: 1.5em 2em;
+  margin: 2em auto 1em auto;
+  box-shadow: 0 2px 12px 0 rgba(34, 49, 63, 0.08);
+  list-style: none;
+}
+ul li {
+  margin: 0.7em 0;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 0.2em;
+}
+h2 {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-bottom: 1.2em;
+  color: #c8e6c9;
+}
+
+.App-link {
+  color: #fff;
+  background: linear-gradient(90deg, #43a047 60%, #66bb6a 100%);
+  padding: 0.7em 2.5em;
+  border-radius: 2em;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1em;
+  margin-top: 1em;
+  display: inline-block;
+  box-shadow: 0 2px 8px 0 rgba(34, 49, 63, 0.12);
+  transition: background 0.2s, transform 0.2s;
+}
+.App-link:hover {
+  background: linear-gradient(90deg, #388e3c 60%, #81c784 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+
+.mugai-gradient-bg {
+  background: linear-gradient(135deg, #00c6fb 0%, #005bea 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  color: #fff;
+  box-shadow: 0 8px 32px 0 rgba(34, 49, 63, 0.2);
+  padding: 0 1.5em;
+}
+
+.mugai-title {
+  font-size: 3em;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 0.2em;
+  background: linear-gradient(90deg, #fff 60%, #00c6fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.mugai-subtitle {
+  font-size: 1.4em;
+  font-weight: 500;
+  margin-bottom: 1.2em;
+  color: #b3e5fc;
+  letter-spacing: 1px;
+}
+
+.mugai-desc {
+  max-width: 500px;
+  margin: 0 auto 1.5em auto;
+  font-size: 1.15em;
+  line-height: 1.6;
+  color: #e3f2fd;
+}
+
+.mugai-highlight {
+  color: #fff176;
+  font-weight: 700;
+}
+
+.mugai-features {
+  background: rgba(255,255,255,0.10);
+  border-radius: 1.2em;
+  padding: 1.5em 2em;
+  margin: 2em auto 1em auto;
+  box-shadow: 0 2px 12px 0 rgba(34, 49, 63, 0.08);
+  list-style: none;
+  max-width: 400px;
+  font-size: 1.1em;
+  text-align: left;
+}
+.mugai-features li {
+  margin: 0.9em 0;
+  font-size: 1.15em;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.mugai-cta {
+  color: #fff;
+  background: linear-gradient(90deg, #005bea 60%, #00c6fb 100%);
+  padding: 0.8em 2.7em;
+  border-radius: 2em;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.15em;
+  margin-top: 1.5em;
+  display: inline-block;
+  box-shadow: 0 2px 8px 0 rgba(34, 49, 63, 0.12);
+  transition: background 0.2s, transform 0.2s;
+  letter-spacing: 1px;
+}
+.mugai-cta:hover {
+  background: linear-gradient(90deg, #00c6fb 60%, #005bea 100%);
+  transform: translateY(-2px) scale(1.05) rotate(-2deg);
+  color: #fffde7;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
