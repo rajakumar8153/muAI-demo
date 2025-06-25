@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/muAI-demo/static/css/main.0be201fb.css",
-    "main.js": "/muAI-demo/static/js/main.98474db4.js",
+    "main.css": "/muAI-demo/static/css/main.7019cb76.css",
+    "main.js": "/muAI-demo/static/js/main.1365e559.js",
     "static/js/453.dfe7aae5.chunk.js": "/muAI-demo/static/js/453.dfe7aae5.chunk.js",
     "index.html": "/muAI-demo/index.html",
-    "main.0be201fb.css.map": "/muAI-demo/static/css/main.0be201fb.css.map",
-    "main.98474db4.js.map": "/muAI-demo/static/js/main.98474db4.js.map",
+    "main.7019cb76.css.map": "/muAI-demo/static/css/main.7019cb76.css.map",
+    "main.1365e559.js.map": "/muAI-demo/static/js/main.1365e559.js.map",
     "453.dfe7aae5.chunk.js.map": "/muAI-demo/static/js/453.dfe7aae5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0be201fb.css",
-    "static/js/main.98474db4.js"
+    "static/css/main.7019cb76.css",
+    "static/js/main.1365e559.js"
   ]
 }
