@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Login.css';
+import logo from '../assets/mugai_logo-removebg-preview.png'
 
 function Login({ onLogin }) {
   const [email, setEmail] = useState('');
@@ -21,15 +22,15 @@ function Login({ onLogin }) {
     <div className="login-root">
       <div className="login-illustration">
         <img
-           src="https://drive.google.com/uc?export=view&id=1vFSneDH7jJ0QzM1nCWrTNDSdvYICj-ob"
+           src={logo}
           alt="Login Illustration"
         />
-        <h2>Welcome to mugAI</h2>
+
         <p>Smart farming made simple.<br />Monitor and control your fields, anytime, anywhere.</p>
       </div>
       <div className="login-form-panel">
         <form className="login-form" onSubmit={handleSubmit}>
-          <div className="login-logo">mug<span>AI</span></div>
+          <div className="login-logo">Mugai</div>
           <h3>Sign in to your account</h3>
           <label>
             Email

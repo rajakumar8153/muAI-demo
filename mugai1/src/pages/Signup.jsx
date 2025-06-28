@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Signup.css';
+import logo from '../assets/mugai_logo-removebg-preview.png'
 
 function Signup({ onSignup }) {
   const [email, setEmail] = useState('');
@@ -25,10 +26,10 @@ function Signup({ onSignup }) {
     <div className="signup-root">
       <div className="signup-illustration">
         <img
-          src= "https://drive.google.com/uc?export=view&id=1vFSneDH7jJ0QzM1nCWrTNDSdvYICj-ob"
+          src= {logo}
           alt="Signup Illustration"
         />
-        <h2>Join mugAI</h2>
+       
         <p>
           Create your account and start<br />
           smart farming with real-time insights.
@@ -36,7 +37,6 @@ function Signup({ onSignup }) {
       </div>
       <div className="signup-form-panel">
         <form className="signup-form" onSubmit={handleSubmit}>
-          <div className="signup-logo">mug<span>AI</span></div>
           <h3>Create your account</h3>
           <label>
             Name

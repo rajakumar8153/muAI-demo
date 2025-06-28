@@ -24,7 +24,7 @@
   box-shadow: none;
 }
 .login-illustration img {
-  width: 180px;
+  width: 250px;
   max-width: 80%;
   margin-bottom: 2rem;
 }
@@ -66,11 +66,13 @@
 }
 
 .login-logo {
-  font-size: 2.1rem;
-  font-weight: 800;
+  font-size: 2.5rem;
+ 
   color: #0a2239;
-  margin-bottom: 0.5rem;
   letter-spacing: 1px;
+  font-family: "Kenia", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .login-logo span {
   color: #1ecbe1;
